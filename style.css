@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+}
+#top {
+  height: 60%;
+  width: 100%;
+  background-image: url(https://plus.unsplash.com/premium_photo-1664267832256-176e55ccafd0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80);
+  background-position: 50% 20%;
+  background-size: cover;
+}
+#bottom {
+  height: 40%;
+  width: 100%;
+  background-color: yellowgreen;
+  display: flex;
+}
+#b1 {
+  height: 100%;
+  width: 25%;
+  background-color: white;
+  padding: 30px;
+}
+#b1 p {
+  font-size: 12px;
+  margin-top: 20px;
+}
+#b2 {
+  height: 100%;
+  width: 25%;
+  background-image: url(https://media.istockphoto.com/id/806697984/photo/woman-in-raincoat-under-the-rain.jpg?s=2048x2048&w=is&k=20&c=N0SXAGalAdkdPWwO_0Azh-YKqaCjA9m77WYYph9MXL4=);
+  background-size: cover;
+  background-position: center;
+}
+#b3 {
+  height: 100%;
+  width: 20%;
+  background-color: red;
+}
+#b4 {
+  height: 100%;
+  width: 30%;
+  background-color: #444;
+  color: white;
+  padding: 30px;
+}
+#overlays {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #0000000f;
+}
+#text {
+  align-items: center;
+  position: absolute;
+  color: white;
+  width: 100%;
+  bottom: 20%;
+  padding: 0 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+#text h1 {
+  font-size: 5vw;
+  font-weight: 500;
+}
+#textright {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  align-items: center;
+}
+#textright p {
+  font-size: 12px;
+  width: 35%;
+}
+#b3top {
+  height: 50%;
+  width: 100%;
+  background-color: orangered;
+  padding: 30px;
+}
+#b3top p {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+#b3bottom {
+  height: 50%;
+  width: 100%;
+  background-image: url(https://plus.unsplash.com/premium_photo-1676135823389-2ee3d1872fd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+  background-size: cover;
+  background-position: 50% 60%;
+}
+
+.notf {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.notf #photo {
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  border-radius: 50%;
+}
+.notf p {
+  width: 86%;
+  font-size: 12px;
+  margin-top: 3%;
+  margin-left: 5%;
+}
